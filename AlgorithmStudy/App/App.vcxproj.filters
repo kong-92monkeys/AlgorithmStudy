@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Stopwatch.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="BubbleSort.cpp">
+      <Filter>Algorithms\BubbleSort</Filter>
+    </ClCompile>
+    <ClCompile Include="CountingSort.cpp">
+      <Filter>Algorithms\CoundtingSort</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{8ed9a80a-2892-4ab3-aab0-bd65bc16600f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithms">
+      <UniqueIdentifier>{c4ca2839-a040-434c-8cae-6af8ddc6dec0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithms\BubbleSort">
+      <UniqueIdentifier>{f8bb1eef-9f25-474c-b742-9b4830048a82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithms\CoundtingSort">
+      <UniqueIdentifier>{2d1e09b9-6290-48d1-a9ff-69a6ddd5e588}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Stopwatch.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="BubbleSort.h">
+      <Filter>Algorithms\BubbleSort</Filter>
+    </ClInclude>
+    <ClInclude Include="CountingSort.h">
+      <Filter>Algorithms\CoundtingSort</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
