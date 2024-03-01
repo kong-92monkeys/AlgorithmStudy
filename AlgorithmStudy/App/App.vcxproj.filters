@@ -20,6 +20,9 @@
     <ClCompile Include="KMP.cpp">
       <Filter>Algorithms\Search\KMP</Filter>
     </ClCompile>
+    <ClCompile Include="BoyerMoore.cpp">
+      <Filter>Algorithms\Search\BoyerMoore</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Tools">
@@ -49,6 +52,9 @@
     <Filter Include="Algorithms\Search\KMP">
       <UniqueIdentifier>{05278bfa-6f96-4507-9d3b-db1da93ec402}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Algorithms\Search\BoyerMoore">
+      <UniqueIdentifier>{86237f72-410c-4ef5-8588-d95b7012b85f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Stopwatch.h">
@@ -68,6 +74,9 @@
     </ClInclude>
     <ClInclude Include="KMP.h">
       <Filter>Algorithms\Search\KMP</Filter>
+    </ClInclude>
+    <ClInclude Include="BoyerMoore.h">
+      <Filter>Algorithms\Search\BoyerMoore</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

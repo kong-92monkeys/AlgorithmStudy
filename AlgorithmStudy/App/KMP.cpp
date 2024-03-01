@@ -15,7 +15,7 @@ std::vector<size_t> KMP::search(
 
 		if (key[matchingLen] == str[strIt])
 		{
-			++matchingLen;
+			++matchingLen; 
 			if (matchingLen == keyLength)
 			{
 				retVal.emplace_back((strIt - keyLength) + 1U);

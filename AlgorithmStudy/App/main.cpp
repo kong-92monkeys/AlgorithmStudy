@@ -1,13 +1,13 @@
 #include <iostream>
 #include "Stopwatch.h"
-#include "KMP.h"
+#include "BoyerMoore.h"
 
 void test()
 {
-	const char str[]{ "This is test string. good test is accurate test." };
+	const char str[]{ "this is test string. good test is accurate test." };
 	const char key[]{ "test" };
 
-	const auto result{ KMP::search(str, std::size(str) - 1U, key, std::size(key) - 1U) };
+	const auto result{ BoyerMoore::search(str, std::size(str) - 1U, key, std::size(key) - 1U) };
 }
 
 int main()
