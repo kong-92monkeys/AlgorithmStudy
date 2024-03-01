@@ -26,6 +26,9 @@
     <ClCompile Include="Stack.cpp">
       <Filter>DataStructures</Filter>
     </ClCompile>
+    <ClCompile Include="ExpressionCalculator.cpp">
+      <Filter>Algorithms\PostfixExpression</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Tools">
@@ -61,6 +64,9 @@
     <Filter Include="DataStructures">
       <UniqueIdentifier>{88fbb0af-58ab-4115-ad5d-ce6dd12b7647}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Algorithms\PostfixExpression">
+      <UniqueIdentifier>{41535429-5258-43a3-ab8b-e02c85e1c7e2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Stopwatch.h">
@@ -86,6 +92,9 @@
     </ClInclude>
     <ClInclude Include="Stack.h">
       <Filter>DataStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpressionCalculator.h">
+      <Filter>Algorithms\PostfixExpression</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

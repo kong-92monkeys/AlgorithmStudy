@@ -1,20 +1,10 @@
 #include <iostream>
 #include "Stopwatch.h"
-#include "Stack.h"
+#include "ExpressionCalculator.h"
 
 void test()
 {
-	Stack stack;
-
-	stack.push(1);
-	stack.push(3);
-	stack.push(5);
-	stack.push(7);
-
-	std::cout << stack.pop() << std::endl;
-	std::cout << stack.pop() << std::endl;
-	std::cout << stack.pop() << std::endl;
-	std::cout << stack.pop() << std::endl;
+	const auto converted{ ExpressionCalculator::calculate("( 1+2*(5-2)/2)") };
 }
 
 int main()
