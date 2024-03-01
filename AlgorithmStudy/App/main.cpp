@@ -1,20 +1,13 @@
 #include <iostream>
 #include "Stopwatch.h"
-#include "CountingSort.h"
-#include <random>
+#include "KMP.h"
 
 void test()
 {
-	static constexpr size_t NUM_VALUES{ 100000U };
+	const char str[]{ "This is test string. good test is accurate test." };
+	const char key[]{ "test" };
 
-	std::default_random_engine randEngine{ 0U };
-	std::uniform_int_distribution intDist{ 0, 100 };
-
-	std::vector<int> values;
-	for (size_t it{ }; it < NUM_VALUES; ++it)
-		values.emplace_back(intDist(randEngine));
-
-	CountingSort::sort(100, values);
+	const auto result{ KMP::search(str, std::size(str) - 1U, key, std::size(key) - 1U) };
 }
 
 int main()

@@ -84,12 +84,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BinarySearch.cpp" />
+    <ClCompile Include="KMP.cpp" />
+    <ClCompile Include="SelectionSort.cpp" />
     <ClCompile Include="BubbleSort.cpp" />
     <ClCompile Include="CountingSort.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Stopwatch.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BinarySearch.h" />
+    <ClInclude Include="KMP.h" />
+    <ClInclude Include="SelectionSort.h" />
     <ClInclude Include="BubbleSort.h" />
     <ClInclude Include="CountingSort.h" />
     <ClInclude Include="Stopwatch.h" />

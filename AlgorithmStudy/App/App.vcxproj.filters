@@ -6,10 +6,19 @@
       <Filter>Tools</Filter>
     </ClCompile>
     <ClCompile Include="BubbleSort.cpp">
-      <Filter>Algorithms\BubbleSort</Filter>
+      <Filter>Algorithms\Sort\BubbleSort</Filter>
     </ClCompile>
     <ClCompile Include="CountingSort.cpp">
-      <Filter>Algorithms\CoundtingSort</Filter>
+      <Filter>Algorithms\Sort\CoundtingSort</Filter>
+    </ClCompile>
+    <ClCompile Include="BinarySearch.cpp">
+      <Filter>Algorithms\Search\BinarySearch</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectionSort.cpp">
+      <Filter>Algorithms\Sort\SelectionSort</Filter>
+    </ClCompile>
+    <ClCompile Include="KMP.cpp">
+      <Filter>Algorithms\Search\KMP</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -19,11 +28,26 @@
     <Filter Include="Algorithms">
       <UniqueIdentifier>{c4ca2839-a040-434c-8cae-6af8ddc6dec0}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Algorithms\BubbleSort">
+    <Filter Include="Algorithms\Sort">
+      <UniqueIdentifier>{adbf563a-706e-4b66-849e-386ddb306faf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithms\Sort\BubbleSort">
       <UniqueIdentifier>{f8bb1eef-9f25-474c-b742-9b4830048a82}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Algorithms\CoundtingSort">
+    <Filter Include="Algorithms\Sort\CoundtingSort">
       <UniqueIdentifier>{2d1e09b9-6290-48d1-a9ff-69a6ddd5e588}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithms\Search">
+      <UniqueIdentifier>{c54f2c1c-3afb-4cca-ab6f-5771cabede72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithms\Search\BinarySearch">
+      <UniqueIdentifier>{188bd771-6f15-4cc0-bd61-e4a75fcb367c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithms\Sort\SelectionSort">
+      <UniqueIdentifier>{26351ef0-39d0-4b02-8683-b3de5e70e38c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithms\Search\KMP">
+      <UniqueIdentifier>{05278bfa-6f96-4507-9d3b-db1da93ec402}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -31,10 +55,19 @@
       <Filter>Tools</Filter>
     </ClInclude>
     <ClInclude Include="BubbleSort.h">
-      <Filter>Algorithms\BubbleSort</Filter>
+      <Filter>Algorithms\Sort\BubbleSort</Filter>
     </ClInclude>
     <ClInclude Include="CountingSort.h">
-      <Filter>Algorithms\CoundtingSort</Filter>
+      <Filter>Algorithms\Sort\CoundtingSort</Filter>
+    </ClInclude>
+    <ClInclude Include="BinarySearch.h">
+      <Filter>Algorithms\Search\BinarySearch</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectionSort.h">
+      <Filter>Algorithms\Sort\SelectionSort</Filter>
+    </ClInclude>
+    <ClInclude Include="KMP.h">
+      <Filter>Algorithms\Search\KMP</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
