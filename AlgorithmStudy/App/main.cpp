@@ -1,13 +1,20 @@
 #include <iostream>
 #include "Stopwatch.h"
-#include "BoyerMoore.h"
+#include "Stack.h"
 
 void test()
 {
-	const char str[]{ "this is test string. good test is accurate test." };
-	const char key[]{ "test" };
+	Stack stack;
 
-	const auto result{ BoyerMoore::search(str, std::size(str) - 1U, key, std::size(key) - 1U) };
+	stack.push(1);
+	stack.push(3);
+	stack.push(5);
+	stack.push(7);
+
+	std::cout << stack.pop() << std::endl;
+	std::cout << stack.pop() << std::endl;
+	std::cout << stack.pop() << std::endl;
+	std::cout << stack.pop() << std::endl;
 }
 
 int main()

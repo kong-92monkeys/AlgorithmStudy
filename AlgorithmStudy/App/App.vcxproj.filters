@@ -23,6 +23,9 @@
     <ClCompile Include="BoyerMoore.cpp">
       <Filter>Algorithms\Search\BoyerMoore</Filter>
     </ClCompile>
+    <ClCompile Include="Stack.cpp">
+      <Filter>DataStructures</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Tools">
@@ -55,6 +58,9 @@
     <Filter Include="Algorithms\Search\BoyerMoore">
       <UniqueIdentifier>{86237f72-410c-4ef5-8588-d95b7012b85f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="DataStructures">
+      <UniqueIdentifier>{88fbb0af-58ab-4115-ad5d-ce6dd12b7647}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Stopwatch.h">
@@ -77,6 +83,9 @@
     </ClInclude>
     <ClInclude Include="BoyerMoore.h">
       <Filter>Algorithms\Search\BoyerMoore</Filter>
+    </ClInclude>
+    <ClInclude Include="Stack.h">
+      <Filter>DataStructures</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

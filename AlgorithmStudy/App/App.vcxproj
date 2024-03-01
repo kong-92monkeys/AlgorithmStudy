@@ -91,6 +91,7 @@
     <ClCompile Include="BubbleSort.cpp" />
     <ClCompile Include="CountingSort.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Stack.cpp" />
     <ClCompile Include="Stopwatch.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -100,6 +101,7 @@
     <ClInclude Include="SelectionSort.h" />
     <ClInclude Include="BubbleSort.h" />
     <ClInclude Include="CountingSort.h" />
+    <ClInclude Include="Stack.h" />
     <ClInclude Include="Stopwatch.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
