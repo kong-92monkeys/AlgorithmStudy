@@ -23,14 +23,17 @@
     <ClCompile Include="BoyerMoore.cpp">
       <Filter>Algorithms\Search\BoyerMoore</Filter>
     </ClCompile>
-    <ClCompile Include="Stack.cpp">
-      <Filter>DataStructures</Filter>
-    </ClCompile>
     <ClCompile Include="ExpressionCalculator.cpp">
       <Filter>Algorithms\PostfixExpression</Filter>
     </ClCompile>
     <ClCompile Include="QuickSort.cpp">
       <Filter>Algorithms\Sort\QuickSort</Filter>
+    </ClCompile>
+    <ClCompile Include="Stack.cpp">
+      <Filter>DataStructures\Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="Queue.cpp">
+      <Filter>DataStructures\Queue</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -73,6 +76,12 @@
     <Filter Include="Algorithms\Sort\QuickSort">
       <UniqueIdentifier>{e8d42627-39c8-4db8-b855-b96e19f298a2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="DataStructures\Stack">
+      <UniqueIdentifier>{ac96a735-58bd-41df-a25a-ebca45be010a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataStructures\Queue">
+      <UniqueIdentifier>{e9b80009-9fca-40cb-8778-aad68c045e18}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Stopwatch.h">
@@ -96,14 +105,17 @@
     <ClInclude Include="BoyerMoore.h">
       <Filter>Algorithms\Search\BoyerMoore</Filter>
     </ClInclude>
-    <ClInclude Include="Stack.h">
-      <Filter>DataStructures</Filter>
-    </ClInclude>
     <ClInclude Include="ExpressionCalculator.h">
       <Filter>Algorithms\PostfixExpression</Filter>
     </ClInclude>
     <ClInclude Include="QuickSort.h">
       <Filter>Algorithms\Sort\QuickSort</Filter>
+    </ClInclude>
+    <ClInclude Include="Stack.h">
+      <Filter>DataStructures\Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="Queue.h">
+      <Filter>DataStructures\Queue</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

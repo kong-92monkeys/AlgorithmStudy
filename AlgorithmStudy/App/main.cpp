@@ -1,21 +1,20 @@
 #include <iostream>
 #include "Stopwatch.h"
-#include "QuickSort.h"
-#include <random>
+#include "Queue.h"
 
 void test()
 {
-	std::vector<int> values{ 3, 4, 5, 6, 4, 5, 6 };
+	Queue queue;
 
-	/*static constexpr size_t NUM_VALUES{ 100000U };
+	queue.enqueue(1);
+	queue.enqueue(3);
+	queue.enqueue(5);
+	queue.enqueue(7);
 
-	std::default_random_engine randEngine{ 0U };
-	std::uniform_int_distribution intDist{ 0, 100 };
-
-	for (size_t it{ }; it < NUM_VALUES; ++it)
-		values.emplace_back(intDist(randEngine));*/
-
-	QuickSort::sort(values);
+	std::cout << queue.dequeue() << std::endl;
+	std::cout << queue.dequeue() << std::endl;
+	std::cout << queue.dequeue() << std::endl;
+	std::cout << queue.dequeue() << std::endl;
 }
 
 int main()
