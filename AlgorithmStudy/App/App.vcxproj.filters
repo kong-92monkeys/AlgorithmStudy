@@ -29,6 +29,9 @@
     <ClCompile Include="ExpressionCalculator.cpp">
       <Filter>Algorithms\PostfixExpression</Filter>
     </ClCompile>
+    <ClCompile Include="QuickSort.cpp">
+      <Filter>Algorithms\Sort\QuickSort</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Tools">
@@ -67,6 +70,9 @@
     <Filter Include="Algorithms\PostfixExpression">
       <UniqueIdentifier>{41535429-5258-43a3-ab8b-e02c85e1c7e2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Algorithms\Sort\QuickSort">
+      <UniqueIdentifier>{e8d42627-39c8-4db8-b855-b96e19f298a2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Stopwatch.h">
@@ -95,6 +101,9 @@
     </ClInclude>
     <ClInclude Include="ExpressionCalculator.h">
       <Filter>Algorithms\PostfixExpression</Filter>
+    </ClInclude>
+    <ClInclude Include="QuickSort.h">
+      <Filter>Algorithms\Sort\QuickSort</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

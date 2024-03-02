@@ -88,6 +88,7 @@
     <ClCompile Include="BoyerMoore.cpp" />
     <ClCompile Include="KMP.cpp" />
     <ClCompile Include="ExpressionCalculator.cpp" />
+    <ClCompile Include="QuickSort.cpp" />
     <ClCompile Include="SelectionSort.cpp" />
     <ClCompile Include="BubbleSort.cpp" />
     <ClCompile Include="CountingSort.cpp" />
@@ -100,6 +101,7 @@
     <ClInclude Include="BoyerMoore.h" />
     <ClInclude Include="KMP.h" />
     <ClInclude Include="ExpressionCalculator.h" />
+    <ClInclude Include="QuickSort.h" />
     <ClInclude Include="SelectionSort.h" />
     <ClInclude Include="BubbleSort.h" />
     <ClInclude Include="CountingSort.h" />
