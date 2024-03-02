@@ -1,20 +1,30 @@
 #include <iostream>
 #include "Stopwatch.h"
-#include "Queue.h"
+#include "LinkedList.h"
 
 void test()
 {
-	Queue queue;
+	LinkedList list;
 
-	queue.enqueue(1);
-	queue.enqueue(3);
-	queue.enqueue(5);
-	queue.enqueue(7);
+	list.insert(0, 1);
+	list.insert(0, 2);
+	list.insert(0, 3);
+	list.insert(0, 4);
 
-	std::cout << queue.dequeue() << std::endl;
-	std::cout << queue.dequeue() << std::endl;
-	std::cout << queue.dequeue() << std::endl;
-	std::cout << queue.dequeue() << std::endl;
+	list.insert(1, 10);
+	list.insert(1, 20);
+	list.insert(1, 30);
+	list.insert(1, 40);
+
+	list.remove(2);
+
+	std::cout << list.get(0) << std::endl;
+	std::cout << list.get(1) << std::endl;
+	std::cout << list.get(2) << std::endl;
+	std::cout << list.get(3) << std::endl;
+	std::cout << list.get(4) << std::endl;
+	std::cout << list.get(5) << std::endl;
+	std::cout << list.get(6) << std::endl;
 }
 
 int main()

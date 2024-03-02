@@ -35,6 +35,9 @@
     <ClCompile Include="Queue.cpp">
       <Filter>DataStructures\Queue</Filter>
     </ClCompile>
+    <ClCompile Include="LinkedList.cpp">
+      <Filter>DataStructures\List</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Tools">
@@ -82,6 +85,9 @@
     <Filter Include="DataStructures\Queue">
       <UniqueIdentifier>{e9b80009-9fca-40cb-8778-aad68c045e18}</UniqueIdentifier>
     </Filter>
+    <Filter Include="DataStructures\List">
+      <UniqueIdentifier>{52001959-4404-4ff4-999b-f10787e3858f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Stopwatch.h">
@@ -116,6 +122,9 @@
     </ClInclude>
     <ClInclude Include="Queue.h">
       <Filter>DataStructures\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedList.h">
+      <Filter>DataStructures\List</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
