@@ -38,6 +38,15 @@
     <ClCompile Include="LinkedList.cpp">
       <Filter>DataStructures\List</Filter>
     </ClCompile>
+    <ClCompile Include="InsertionSort.cpp">
+      <Filter>Algorithms\Sort\InsertionSort</Filter>
+    </ClCompile>
+    <ClCompile Include="MergeSort.cpp">
+      <Filter>Algorithms\Sort\MergeSort</Filter>
+    </ClCompile>
+    <ClCompile Include="BinarySearchTree.cpp">
+      <Filter>Algorithms\Search\BinarySearchTree</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Tools">
@@ -88,6 +97,15 @@
     <Filter Include="DataStructures\List">
       <UniqueIdentifier>{52001959-4404-4ff4-999b-f10787e3858f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Algorithms\Sort\InsertionSort">
+      <UniqueIdentifier>{bc718345-c11f-449e-901f-f0bb8ad36229}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithms\Sort\MergeSort">
+      <UniqueIdentifier>{39f40fc0-0bd7-467b-901f-4392156057d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithms\Search\BinarySearchTree">
+      <UniqueIdentifier>{44b9510b-2b20-4aca-8359-22e796f5cba8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Stopwatch.h">
@@ -125,6 +143,15 @@
     </ClInclude>
     <ClInclude Include="LinkedList.h">
       <Filter>DataStructures\List</Filter>
+    </ClInclude>
+    <ClInclude Include="InsertionSort.h">
+      <Filter>Algorithms\Sort\InsertionSort</Filter>
+    </ClInclude>
+    <ClInclude Include="MergeSort.h">
+      <Filter>Algorithms\Sort\MergeSort</Filter>
+    </ClInclude>
+    <ClInclude Include="BinarySearchTree.h">
+      <Filter>Algorithms\Search\BinarySearchTree</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

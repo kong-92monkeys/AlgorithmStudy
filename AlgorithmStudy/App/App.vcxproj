@@ -85,10 +85,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BinarySearch.cpp" />
+    <ClCompile Include="BinarySearchTree.cpp" />
     <ClCompile Include="BoyerMoore.cpp" />
+    <ClCompile Include="InsertionSort.cpp" />
     <ClCompile Include="KMP.cpp" />
     <ClCompile Include="ExpressionCalculator.cpp" />
     <ClCompile Include="LinkedList.cpp" />
+    <ClCompile Include="MergeSort.cpp" />
     <ClCompile Include="Queue.cpp" />
     <ClCompile Include="QuickSort.cpp" />
     <ClCompile Include="SelectionSort.cpp" />
@@ -100,10 +103,13 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinarySearch.h" />
+    <ClInclude Include="BinarySearchTree.h" />
     <ClInclude Include="BoyerMoore.h" />
+    <ClInclude Include="InsertionSort.h" />
     <ClInclude Include="KMP.h" />
     <ClInclude Include="ExpressionCalculator.h" />
     <ClInclude Include="LinkedList.h" />
+    <ClInclude Include="MergeSort.h" />
     <ClInclude Include="Queue.h" />
     <ClInclude Include="QuickSort.h" />
     <ClInclude Include="SelectionSort.h" />

@@ -1,30 +1,40 @@
 #include <iostream>
 #include "Stopwatch.h"
-#include "LinkedList.h"
+#include "BinarySearchTree.h"
 
 void test()
 {
-	LinkedList list;
+	BinarySearchTree bst;
 
-	list.insert(0, 1);
-	list.insert(0, 2);
-	list.insert(0, 3);
-	list.insert(0, 4);
+	bst.put(10);
+	bst.put(2);
+	bst.put(5);
+	bst.put(20);
+	bst.put(30);
+	bst.put(1);
+	bst.put(6);
 
-	list.insert(1, 10);
-	list.insert(1, 20);
-	list.insert(1, 30);
-	list.insert(1, 40);
+	std::cout << bst.contains(2) << std::endl;
+	std::cout << bst.contains(5) << std::endl;
+	std::cout << bst.contains(30) << std::endl << std::endl;
 
-	list.remove(2);
+	bst.remove(30);
 
-	std::cout << list.get(0) << std::endl;
-	std::cout << list.get(1) << std::endl;
-	std::cout << list.get(2) << std::endl;
-	std::cout << list.get(3) << std::endl;
-	std::cout << list.get(4) << std::endl;
-	std::cout << list.get(5) << std::endl;
-	std::cout << list.get(6) << std::endl;
+	std::cout << bst.contains(2) << std::endl;
+	std::cout << bst.contains(5) << std::endl;
+	std::cout << bst.contains(30) << std::endl << std::endl;
+
+	bst.remove(5);
+
+	std::cout << bst.contains(2) << std::endl;
+	std::cout << bst.contains(5) << std::endl;
+	std::cout << bst.contains(30) << std::endl << std::endl;
+
+	bst.remove(2);
+
+	std::cout << bst.contains(2) << std::endl;
+	std::cout << bst.contains(5) << std::endl;
+	std::cout << bst.contains(30) << std::endl << std::endl;
 }
 
 int main()

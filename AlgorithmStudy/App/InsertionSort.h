@@ -2,7 +2,7 @@
 
 #include <vector>
 
-class SelectionSort
+class InsertionSort
 {
 public:
 	static void sort(std::vector<int> &values) noexcept;
